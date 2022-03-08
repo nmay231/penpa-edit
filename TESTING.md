@@ -620,3 +620,12 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 * https://puzz.link/p?yajilin/b/11/11/m31e23e23c23g10a22i32j12j32j40j31j31p
 
 </details>
+<details>
+<summary>Yin-Yang</summary>
+
+* https://puzz.link/p?yinyang/v:/6/6/l2a70001f0kb
+* https://puzz.link/p?yinyang/v:/14/8/59000k00074i00027a8ala6j620g793b606n39
+* https://puzz.link/p?yinyang/12/5/02903a2o490i392o0290
+* https://puzz.link/p?yinyang/14/10/000003fji00i3i669j099i31109960kl0320g010a000000
+
+</details>

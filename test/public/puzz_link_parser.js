@@ -339,6 +339,11 @@ describe("puzz.link parser", () => {
         ["Yajilin 5", "https://puzz.link/p?yajilin/10/10/40u23k10h20l10h20k13l40i"],
         ["Yajilin 6", "https://puzz.link/p?yajilin/b/11/11/m31e23e23c23g10a22i32j12j32j40j31j31p"],
         ["Yajilin 7", "https://puzz.link/p?yajilin/6/3/1122334400a1.2.3.4.0.a-13e3-23e4-33e5962563"],
+        // Yin-Yang
+        ["Yin-Yang 1", "https://puzz.link/p?yinyang/v:/6/6/l2a70001f0kb"],
+        ["Yin-Yang 2", "https://puzz.link/p?yinyang/v:/14/8/59000k00074i00027a8ala6j620g793b606n39"],
+        ["Yin-Yang 3", "https://puzz.link/p?yinyang/12/5/02903a2o490i392o0290"],
+        ["Yin-Yang 4", "https://puzz.link/p?yinyang/14/10/000003fji00i3i669j099i31109960kl0320g010a000000"],
     ];
     const testCases = [];
 

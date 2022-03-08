@@ -107,6 +107,7 @@ const penpa_tags = {
             "toichika2",
             "view",
             "yajikazu (yajisan-kazusan)",
+            "yin-yang",
         ],
         "Others": [
             "wordpuzzle",
