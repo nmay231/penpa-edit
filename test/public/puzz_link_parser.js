@@ -13,6 +13,10 @@ describe("puzz.link parser", () => {
     })
 
     const urls = [
+        // Aho
+        ["Aho 1", "https://puzz.link/p?aho/10/10/.k9h4n4t9h4i6i4p8ici2h3t6n6h3k5"],
+        ["Aho 2", "https://puzz.link/p?aho/11/7/-14lch-15zw11v-16p"],
+        ["Aho 3", "https://puzz.link/p?aho/v:/11/11/k.m6i5g4i6h.j3j.i.j1l9h2o.h.l.j.i.j5j1h2i6g.i4m.k"],
         // Akari
         ["Akari 1", "https://puzz.link/p?akari/10/10/..g.h.i.j.k.l.t0143bzzp"],
         ["Akari 2", "https://puzz.link/p?akari/10/10/jbh.rchcpah.n.jbpchcp.jah"],
@@ -256,6 +260,10 @@ describe("puzz.link parser", () => {
         ["Shakashaka 3", "https://puzz.link/p?shakashaka/12/12/.hcc6.rbrchbdh.mczck.jbehdrbp.gbcc"],
         ["Shakashaka 4", "https://puzz.link/p?shakashaka/17/17/bmbibw.g.ibh.l.n1.ch.g.ibh.z.kbm.pck.g.o.g.mcncmei.y.kboal00aj.ibzi.kbm"],
         ["Shakashaka 5", "https://puzz.link/p?shakashaka/25/9/lcici.k.zl.111.h..ccg72....jbgbg.g.i.i.l.ibg.h.gbh.j.g.ibg.h.gbhbi.k.1.jbg.1.1.zlbi.kci.l"],
+        // Shikaku
+        ["Shikaku 1", "https://puzz.link/p?shikaku/10/10/x3gag.s9m.p.m8s-10g.gax"],
+        ["Shikaku 2", "https://puzz.link/p?shikaku/24/14/-1ezh-1ep9h-18zzfp-10zt-2at8zzvct9zt-1epezz-2ah-15pazh-18"],
+        ["Shikaku 3", "https://puzz.link/p?shikaku/8/8/2222y.j55j66j.y3333"],
         // Shimaguni (Islands)
         ["Shimaguni 1", "https://puzz.link/p?shimaguni/15/10/319eqrdmkg4t6bsufv7lo3r7jk9acr3408vvv7rs3hod4kgv21rk7lpzg5g3i"],
         ["Shimaguni 2", "https://puzz.link/p?shimaguni/4/4/7qoo90h2g"],

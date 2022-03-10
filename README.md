@@ -447,6 +447,7 @@ Depending on the browser you can update the page without using the cache with "C
 * If the puzzle is too big and contains a lot of elements, it generates a big URL and the size is limited by the internet. In order to address this issue, one can use this Load button option to copy the big URL and click "Load URL" button.
 * Basically, one can share the "Long URL" and ask the user to copy paste in the "Load" button and load the puzzle locally into Penpa.
 * Secondly, it can also be used to import https://puzz.link/db/ puzzles. It currently supports:
+	* Aho
 	* Akari
 	* Aqre
 	* Araf
@@ -500,6 +501,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Ring-ring
 	* Ripple Effect
 	* Shakashaka
+	* Shikaku
 	* Shimaguni (Islands)
 	* Simple Loop
 	* Skyscrapers

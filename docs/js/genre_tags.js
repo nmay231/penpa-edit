@@ -58,6 +58,7 @@ const penpa_tags = {
             "roundtrip"
         ],
         "puzzlink": [
+            "aho",
             "akari",
             "aqre",
             "ayeheya (ekawayeh)",
@@ -100,6 +101,7 @@ const penpa_tags = {
             "ring-ring",
             "ripple effect",
             "shakashaka",
+            "shikaku",
             "shimaguni (islands)",
             "simple loop",
             "slant (gokigen)",

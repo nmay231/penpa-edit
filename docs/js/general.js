@@ -3288,6 +3288,8 @@ function decode_puzzlink(url) {
             }
             break;
         case "araf":
+            // Add all of the decodeNumber16() puzzles (but make sure the controls are the same and that question marks are handled the same way)
+            // Then add all of the decodeNumber10()
             pu = new Puzzle_square(cols, rows, size);
             pu.mode_grid("nb_grid2"); // Dashed grid lines
             setupProblem(pu, "combi");
@@ -3905,6 +3907,23 @@ function decode_puzzlink(url) {
             pu.mode_set("surface");
             UserSettings.tab_settings = ["Surface"];
             pu.user_tags = ['hitori']; // Genre Tags
+            break;
+        case "aho":
+        case "shikaku":
+            pu = new Puzzle_square(cols, rows, size);
+            pu.mode_grid("nb_grid2"); // Dashed lines
+            setupProblem(pu, "combi");
+
+            info_number = puzzlink_pu.decodeNumber16();
+            puzzlink_pu.drawNumbers(pu, info_number, 7, "1", true);
+
+            // Change to Solution Tab
+            pu.mode_qa("pu_a");
+            pu.mode_set("combi");
+            pu.subcombimode("edgesub");
+            UserSettings.tab_settings = ["Surface", "Composite"];
+
+            pu.user_tags = [type]; // Genre tags
             break;
         default:
             Swal.fire({
