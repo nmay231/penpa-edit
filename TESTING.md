@@ -165,6 +165,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Hanare-gumi</summary>
+
+* https://puzz.link/p?hanare/6/6/35vbm8uaihjfzv
+* https://puzz.link/p?hanare/8/8/bdbiufrpnii0u6s5t4195qcgh2zs6i3p5i5n
+
+</details>
+<details>
 <summary>Hashiwokakero (Hashi/Bridges)</summary>
 
 * https://puzz.link/p?hashikake/5/5/1234g1-10+100=100g.h.i.l.
@@ -411,6 +418,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 * https://puzz.link/p?pencils/8/8/1o1k1k1l1o111m1n1m11m1k1m1o1l1m1l1l
 * https://puzz.link/p?pencils/6/6/2kilgphk1w4kin5
 * https://puzz.link/p?pencils/11/11/oi2kglgsgnhin2kgngkgl32uhkjkiyhogphlg2gv4l2jho3j
+
+</details>
+<details>
+<summary>Putteria</summary>
+
+* https://puzz.link/p?putteria/10/10/4b5pf5aprd948qbr8hjiejbftaadvscftra6zzzzz
+* https://puzz.link/p?putteria/8/8/adcaagl55ac0dntnvpnvjrng0123456789abcdef1g1z1z1h1
 
 </details>
 <details>

@@ -465,6 +465,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Firefly (Hotaru Beam)
 	* Geradeweg
 	* Haisu
+	* Hanare-gumi
 	* Hashiwokakero (Hashi/Bridges)
 	* Heyawake
 	* Hitori
@@ -493,6 +494,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Nurimisaki
 	* Onsen
 	* Pencils
+	* Putteria
 	* Regional Yajilin
 	* Renban (Renban-Madoguchi)
 	* Ring-ring

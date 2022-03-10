@@ -2576,12 +2576,14 @@ function decode_puzzlink(url) {
 
     var info_edge, info_number, info_obj, size, puzzlink_pu,
         row_ind, col_ind, cell, value, corner_cursor,
-        number_style;
+        number_style, map_genre_tag;
 
     switch (type) {
         case "cojun":
+        case "hanare":
         case "meander":
         case "nanro":
+        case "putteria":
         case "renban":
         case "ripple":
             // Setup board
@@ -2600,24 +2602,15 @@ function decode_puzzlink(url) {
             pu.mode_set("number");
             UserSettings.tab_settings = ["Surface", "Number Normal", "Sudoku Normal"];
 
+            // Convert the abreviated type name to the long form
+            map_genre_tag = {
+                hanare: "hanare-gumi",
+                meander: "meandering numbers",
+                renban: "renban (renban-madoguchi)",
+                ripple: "ripple effect",
+            };
             // Set tags
-            switch (type) {
-                case "cojun":
-                    pu.user_tags = ['cojun'];
-                    break;
-                case "meander":
-                    pu.user_tags = ['meandering numbers'];
-                    break;
-                case "nanro":
-                    pu.user_tags = ['nanro'];
-                    break;
-                case "renban":
-                    pu.user_tags = ['renban (renban-madoguchi)'];
-                    break;
-                case "ripple":
-                    pu.user_tags = ['ripple effect'];
-                    break;
-            }
+            pu.user_tags = [map_genre_tag[type] || type];
             break;
         case "onsen":
             // Setup board
