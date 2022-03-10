@@ -140,6 +140,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Fillmat</summary>
+
+* https://puzz.link/p?fillmat/9/10/2u3g2a2d4e2d3a3g2s2b2b2e
+* https://puzz.link/p?fillmat/5/5/e.a..b.a.a.d..a.a
+
+</details>
+<details>
 <summary>Fillomino</summary>
 
 * https://puzz.link/p?fillomino/5/5/-10-10-10-10-10-108.8-10-10.1.-10-108.8-10-10-10g-10-10
@@ -254,6 +261,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 * https://puzz.link/p?kurodoko/12/12/9l9l5l4l2l7l5l3l4l3h5p7h3l7l4l8l8l2l7l5l7l7
 * https://puzz.link/p?kurodoko/4/4/g4g3.l.3g3g
 * https://puzz.link/p?kurodoko/9/9/man5h365i4zo4i684h4n8m
+
+</details>
+<details>
+<summary>Look-Air</summary>
+
+* https://puzz.link/p?lookair/10/10/3a1k3c1a1f1b0b5d1g2f2g3d5b1b3f1a0c3k1a3
+* https://puzz.link/p?lookair/12/3/m5b0b.b0m
 
 </details>
 <details>
@@ -420,6 +434,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Paintarea</summary>
+
+* https://puzz.link/p?paintarea/10/10/vfmnvettvfttvvnqufvvvvsevqvvfmvfbt1rm2q2m2.h1.m2q1m
+* https://puzz.link/p?paintarea/10/7/2327evvvrv2sgfu6cal1a0c8vzzr
+
+</details>
+<details>
 <summary>Pencils</summary>
 
 * https://puzz.link/p?pencils/6/6/1234k5.ghij-10zq-ff
@@ -577,6 +598,20 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Sukoro</summary>
+
+* https://puzz.link/p?sukoro/5/4/1c2b3d4..e
+* https://puzz.link/p?sukoro/8/8/b1a2a21a1a2a2b1a2a2a1b2a2a2a12a1a2a2b1a1a2a21a1a2a2b1a2a1a1
+
+</details>
+<details>
+<summary>Sukoro-room</summary>
+
+* https://puzz.link/p?sukororoom/10/10/blvvffvvu5cvvftulub6uv2ue7ljuvdjn4cnq1..zzl1q
+* https://puzz.link/p?sukororoom/v:/10/10/mtuvvjtvdfvuebdumn6vvfpb8ujuufntuvtmk2zzx3k
+
+</details>
+<details>
 <summary>Symmetry Area</summary>
 
 * https://puzz.link/p?symmarea/17/7/9i9i3i3i77i5i5i5i3qfsfsfq3i9i9i1i31i3i3i3i9
@@ -629,6 +664,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 * https://puzz.link/p?toichika2/15/15/2ii9p6jlepctpvvnvvcvtsnrvfnvumfuafuqrdigoivvuvjufvv6veme19dokvv1ovoo31to5vv0vsrduvfv*5028-4d-3c6-b4-10-90+249-5a-46-6e+2a0-30-3f+4e0-2d-1c-37-84-30-fce-28+16c-87-87-1e-84+190-62-30+555+604-1e-36$4ec40-b6-6c-8f-1e-3c-606-82+898-9a+288*457e+1b0-20-2ac-283-54-48-96+870=6f8-28-75-62-78e-1e+276-46+438a+7d2c-3c-3c-75-3c-30-37-5b6b+654-20%b50+222+258-48
 * https://puzz.link/p?toichika2/12/12/4s6ndj8iorsml2p8llbdekqu9504hq8lvi2bt54jun8vv95nsi88c05g4g3i2i1i25o4g
 * https://puzz.link/p?toichika2/20/15/10156ggr62indoe611d38431oonjrhv7hltmb6t90d6hdme4rc8jcp26ge7vo7vvo32vk8tv1v7uefro67hg208e82hg953tva7tu0fg0fv6m1u0ei5g24k54g2l7g557k92h3g3g2g3
+
+</details>
+<details>
+<summary>Uso-tatami</summary>
+
+* https://puzz.link/p?usotatami/10/10/6e7b3a8j2e4c...b21e4c2b4b414d12c3d2d..j8a2b7e6
+* https://puzz.link/p?usotatami/6/4/c2c1h3c4c
 
 </details>
 <details>

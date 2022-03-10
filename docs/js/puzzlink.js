@@ -310,6 +310,32 @@ class Puzzlink {
         return number_list;
     }
 
+    decodeNumber10(max_iter = -1) {
+        var number_list = {};
+        let index = 0;
+
+        for (var char of this.gridurl) {
+            if (char === '.') {
+                number_list[index] = '?';
+            } else if (char >= "0" && char <= "9") {
+                number_list[index] = parseInt(char);
+            } else if (char >= "a" && char <= "z") {
+                index += parseInt(char, 36) - 10;
+            }
+            index++;
+
+            max_iter--;
+            if (max_iter === 0) {
+                break;
+            }
+        }
+
+        // Remove what was parsed so the next function call reads what is left
+        this.gridurl = this.gridurl.substr(index);
+
+        return number_list;
+    }
+
     decodeNumber4() {
         var number_list = {},
             i = 0;

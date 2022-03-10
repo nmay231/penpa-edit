@@ -3925,6 +3925,65 @@ function decode_puzzlink(url) {
 
             pu.user_tags = [type]; // Genre tags
             break;
+        case "fillmat":
+        case "lookair":
+        case "usotatami":
+            pu = new Puzzle_square(cols, rows, size);
+            pu.mode_grid("nb_grid2"); // Dashed lines
+            setupProblem(pu, "combi");
+
+            info_number = puzzlink_pu.decodeNumber10();
+            puzzlink_pu.drawNumbers(pu, info_number, 1, "1", false);
+
+            // Change to Solution Tab
+            pu.mode_qa("pu_a");
+
+            if (type === "lookair") {
+                pu.mode_set("surface");
+                UserSettings.tab_settings = ["Surface"];
+            } else {
+                pu.mode_set("combi");
+                pu.subcombimode("edgesub");
+                UserSettings.tab_settings = ["Surface", "Composite"];
+            }
+
+            pu.user_tags = [type]; // Genre tags
+            break;
+        case "paintarea":
+            pu = new Puzzle_square(cols, rows, size);
+            setupProblem(pu, "surface");
+
+            info_edge = puzzlink_pu.decodeBorder();
+            info_number = puzzlink_pu.decodeNumber10();
+
+            puzzlink_pu.drawBorder(pu, info_edge, 2);
+            puzzlink_pu.drawNumbers(pu, info_number, 1, "1", false);
+
+            // Change to Solution Tab
+            pu.mode_qa("pu_a");
+            pu.mode_set("surface");
+            UserSettings.tab_settings = ["Surface"];
+            pu.user_tags = ["paintarea"]; // Genre tags
+            break;
+        case "sukoro":
+        case "sukororoom":
+            pu = new Puzzle_square(cols, rows, size);
+            setupProblem(pu, "number");
+
+            if (type === "sukororoom") {
+                info_edge = puzzlink_pu.decodeBorder();
+                puzzlink_pu.drawBorder(pu, info_edge, 2);
+            }
+
+            info_number = puzzlink_pu.decodeNumber10();
+            puzzlink_pu.drawNumbers(pu, info_number, 1, "1", false);
+
+            // Change to Solution Tab
+            pu.mode_qa("pu_a");
+            pu.mode_set("number");
+            UserSettings.tab_settings = ["Surface", "Number Normal", "Sudoku Normal"];
+            pu.user_tags = [type]; // Genre tags
+            break;
         default:
             Swal.fire({
                 title: 'Swaroop says:',

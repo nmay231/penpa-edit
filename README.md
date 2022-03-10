@@ -462,6 +462,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Double Back
 	* Easy as ABC
 	* Factors
+	* Fillmat
 	* Fillomino
 	* Firefly (Hotaru Beam)
 	* Geradeweg
@@ -477,6 +478,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Kurodoko
 	* Kurotto
 	* LITS
+	* Look-Air
 	* Masyu
 	* Maxi Loop
 	* Meandering Numbers
@@ -494,6 +496,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Nurimaze
 	* Nurimisaki
 	* Onsen
+	* Paintarea
 	* Pencils
 	* Putteria
 	* Regional Yajilin
@@ -511,12 +514,15 @@ Depending on the browser you can update the page without using the cache with "C
 	* Star Battle
 	* Stostone
 	* Sudoku
+	* Sukoro
+	* Sukoro-room
 	* Symmetry Area
 	* Tapa
 	* Tapa-Like Loop
-	* Tents
 	* Tentaisho (Spiral Galaxies)
+	* Tents
 	* Toichika 2
+	* Uso-tatami
 	* View
 	* Yajikazu (Yajisan-Kazusan)
 	* Yajilin
