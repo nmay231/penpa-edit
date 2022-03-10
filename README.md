@@ -467,6 +467,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Haisu
 	* Hashiwokakero (Hashi/Bridges)
 	* Heyawake
+	* Hitori
 	* Juosan
 	* Kakuro
 	* Kropki

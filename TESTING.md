@@ -186,6 +186,15 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Hitori</summary>
+
+* https://puzz.link/p?hitori/5/5/1-6i5-1v-2h1n-196-lx-3f45-iu91n-co-269cy5-1v-2h
+* https://puzz.link/p?hitori/8/8/.%.632..1.6..1.12.23..%3.%7..7..5.6.35%..7.7..7.2.%6.2.%.1..1.1./
+* https://puzz.link/p?hitori/8/8/8416325715684121262378436475273858613542475783762346528431821615
+* https://puzz.link/p?hitori/9/6/number15burgerkingfootlettucethelastthingyouwantinyourburger
+
+</details>
+<details>
 <summary>Juosan</summary>
 
 * https://puzz.link/p?juosan/8/8/c3000000000003g00000000042g

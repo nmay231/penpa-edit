@@ -73,6 +73,7 @@ const penpa_tags = {
             "haisu",
             "hashiwokakero (hashi/bridges)",
             "heyawake",
+            "hitori",
             "juosan",
             "kropki",
             "kurochute",
