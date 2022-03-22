@@ -196,6 +196,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Hebi-Ichigo</summary>
+
+* https://puzz.link/p?hebi/10/10/k0.04a32c14l350.a40a23a11b44p40b0.a0.a40a0.25l0.c23a214.k
+* https://puzz.link/p?hebi/5/5/g13c31g35c12a
+
+</details>
+<details>
 <summary>Heyawake</summary>
 
 * https://puzz.link/p?heyawake/10/10/0k18ih52a4k9800000003g00000000vv00008g57b

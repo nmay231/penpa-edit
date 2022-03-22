@@ -266,6 +266,9 @@ describe("puzz.link parser", () => {
         // Scrin
         ["Scrin 1", "https://puzz.link/p?scrin/10/10/g.p7u5p.j.zi3m3m3u"],
         ["Scrin 2", "https://puzz.link/p?scrin/9/9/j3l2i4h1m5zh6zi3k2g"],
+        // Hebi-Ichigo
+        ["Hebi-Ichigo 1", "https://puzz.link/p?hebi/10/10/k0.04a32c14l350.a40a23a11b44p40b0.a0.a40a0.25l0.c23a214.k"],
+        ["Hebi-Ichigo 2", "https://puzz.link/p?hebi/5/5/g13c31g35c12a"],
         // Shakashaka
         ["Shakashaka 1", "https://puzz.link/p?shakashaka/10/10/g4.g5bcgdhei.l....w01436555000azp"],
         ["Shakashaka 2", "https://puzz.link/p?shakashaka/10/10/rch.m.k.lcgbv.ldgcqcjchb"],

@@ -3097,6 +3097,7 @@ function decode_puzzlink(url) {
             pu.user_tags = [type === "midloop" ? "midloop" : "tentaisho (spiral galaxies)"];
             break;
         case "castle":
+        case "hebi":
         case "yajikazu":
         case "yajilin":
         case "yajirin": // yajilin alias
@@ -3104,7 +3105,7 @@ function decode_puzzlink(url) {
                 type = "yajilin";
             }
             // Yajikazu and some Yajilin puzzles don't shade cells
-            var skip_shading = type !== "castle";
+            var skip_shading = type !== "castle" && type !== "hebi";
 
             // Yajilin changes the url format to indicate shading or not
             if (urldata[1] === "b") {
@@ -3151,7 +3152,7 @@ function decode_puzzlink(url) {
                 }
 
                 // Add arrow and number
-                var shading = arrows[i][2];
+                var shading = type === "hebi" ? 2 : arrows[i][2];
                 pu["pu_q"].number[cell] = [number, shading === 2 ? 7 : 1, "2"];
 
                 // Background shading
@@ -3169,7 +3170,6 @@ function decode_puzzlink(url) {
                 ];
 
                 // Borders
-                var edgex, edgey;
                 for (var e of cell_edges) {
                     edgex = e[0];
                     edgey = e[0] + e[1];
@@ -3196,24 +3196,23 @@ function decode_puzzlink(url) {
             if (type === "yajikazu") {
                 pu.mode_set("surface");
                 UserSettings.tab_settings = ["Surface"];
+            } else if (type === "hebi") {
+                pu.mode_set("number");
+                UserSettings.tab_settings = ["Surface", "Number Normal"];
             } else {
                 pu.mode_set("combi");
                 pu.subcombimode("linex");
                 UserSettings.tab_settings = ["Surface", "Composite"];
             }
 
-            // Set tags
-            switch (type) {
-                case "castle":
-                    pu.user_tags = ['castlewall'];
-                    break;
-                case "yajikazu":
-                    pu.user_tags = ['yajikazu (yajisan-kazusan)'];
-                    break;
-                case "yajilin":
-                    pu.user_tags = ['yajilin'];
-                    break;
+            // Convert the abreviated type name to the long form
+            map_genre_tag = {
+                castle: "castlewall",
+                yajikazu: "yajikazu (yajisan-kazusan)",
+                hebi: "hebi-ichigo",
             }
+            // Set tags
+            pu.user_tags = [map_genre_tag[type] || type];
             break;
         case "tapa":
         case "tapaloop":

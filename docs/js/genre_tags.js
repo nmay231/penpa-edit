@@ -75,6 +75,7 @@ const penpa_tags = {
             "haisu",
             "hanare-gumi",
             "hashiwokakero (hashi/bridges)",
+            "hebi-ichigo",
             "heyawake",
             "hitori",
             "juosan",
