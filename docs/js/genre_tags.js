@@ -103,6 +103,7 @@ const penpa_tags = {
             "renban (renban-madoguchi)",
             "ring-ring",
             "ripple effect",
+            "scrin",
             "shakashaka",
             "shikaku",
             "shimaguni (islands)",

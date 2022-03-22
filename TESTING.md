@@ -494,6 +494,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Scrin</summary>
+
+* https://puzz.link/p?scrin/10/10/g.p7u5p.j.zi3m3m3u
+* https://puzz.link/p?scrin/9/9/j3l2i4h1m5zh6zi3k2g
+
+</details>
+<details>
 <summary>Shakashaka</summary>
 
 * https://puzz.link/p?shakashaka/10/10/g.zkbibvcicrbq.r

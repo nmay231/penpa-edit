@@ -263,6 +263,9 @@ describe("puzz.link parser", () => {
         ["Ripple 2", "https://puzz.link/p?hakyukoka/5/5/d6lqqf3ei1g3s2g1i"],
         ["Ripple 3", "https://puzz.link/p?ripple/6/6/4444440fo3u0m3h1i6l3g52g4g2i5h4"],
         ["Ripple 4", "http://pzv.jp/p?ripple/10/10/35srcenac8p9p4obgjqo5u0rnkfnnnfqvov4zzzzz"],
+        // Scrin
+        ["Scrin 1", "https://puzz.link/p?scrin/10/10/g.p7u5p.j.zi3m3m3u"],
+        ["Scrin 2", "https://puzz.link/p?scrin/9/9/j3l2i4h1m5zh6zi3k2g"],
         // Shakashaka
         ["Shakashaka 1", "https://puzz.link/p?shakashaka/10/10/g4.g5bcgdhei.l....w01436555000azp"],
         ["Shakashaka 2", "https://puzz.link/p?shakashaka/10/10/rch.m.k.lcgbv.ldgcqcjchb"],

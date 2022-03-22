@@ -3975,6 +3975,24 @@ function decode_puzzlink(url) {
             UserSettings.tab_settings = ["Surface", "Composite"];
             pu.user_tags = ["usoone"];
             break;
+        case "scrin":
+            pu = new Puzzle_square(cols, rows, size);
+            // Draw grid dots only
+            pu.mode_grid("nb_grid3");
+            pu.mode_grid("nb_lat1");
+            pu.mode_grid("nb_out2");
+
+            setupProblem(pu, "combi");
+
+            info_number = puzzlink_pu.decodeNumber16();
+            puzzlink_pu.drawNumbers(pu, info_number, 6, "1", true);
+
+            pu.mode_qa("pu_a");
+            pu.mode_set("combi");
+            pu.subcombimode("edgex");
+            UserSettings.tab_settings = ["Surface", "Composite"];
+            pu.user_tags = ["scrin"];
+            break;
         default:
             Swal.fire({
                 title: 'Swaroop says:',

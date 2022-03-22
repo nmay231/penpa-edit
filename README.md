@@ -503,6 +503,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Renban (Renban-Madoguchi)
 	* Ring-ring
 	* Ripple Effect
+	* Scrin
 	* Shakashaka
 	* Shikaku
 	* Shimaguni (Islands)
