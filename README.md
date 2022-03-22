@@ -522,6 +522,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Tentaisho (Spiral Galaxies)
 	* Tents
 	* Toichika 2
+	* Uso-one
 	* Uso-tatami
 	* View
 	* Yajikazu (Yajisan-Kazusan)

@@ -3959,6 +3959,22 @@ function decode_puzzlink(url) {
             UserSettings.tab_settings = ["Surface", "Number Normal", "Sudoku Normal"];
             pu.user_tags = [type]; // Genre tags
             break;
+        case "usoone":
+            pu = new Puzzle_square(cols, rows, size);
+            setupProblem(pu, "surface");
+
+            info_edge = puzzlink_pu.decodeBorder();
+            info_number = puzzlink_pu.decodeNumber4();
+
+            puzzlink_pu.drawBorder(pu, info_edge, 2);
+            puzzlink_pu.drawNumbers(pu, info_number, 1, "1", false);
+
+            pu.mode_qa("pu_a");
+            pu.mode_set("surface");
+            pu.subcombimode("lineox"); // Allow user to circle/cross out liars
+            UserSettings.tab_settings = ["Surface", "Composite"];
+            pu.user_tags = ["usoone"];
+            break;
         default:
             Swal.fire({
                 title: 'Swaroop says:',
@@ -4000,7 +4016,7 @@ function decode_puzzlink(url) {
 
     // Set the Source
     document.getElementById("saveinfosource").value = url;
-    // // Set the tags
+    // Set the tags
     set_genre_tags(pu.user_tags);
 }
 

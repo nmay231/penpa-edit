@@ -115,6 +115,7 @@ const penpa_tags = {
             "tentaisho (spiral galaxies)",
             "tents",
             "toichika2",
+            "usoone",
             "usotatami",
             "view",
             "yajikazu (yajisan-kazusan)",
