@@ -111,6 +111,9 @@ describe("puzz.link parser", () => {
         ["Hashiwokakero 2", "https://puzz.link/p?hashi/9/9/h2g3g.q.g1i3g.o2i1i2o.g2i2g1q.g3g3h"],
         ["Hashiwokakero 3", "https://puzz.link/p?bridges/17/13/l2h1w2i3h2i3zi1h3p1g2k2g1h3r1k4g4h4h4i3h2u1g2l1g3n1g3y1j.g3g3g3h3r2j.h3g.g2"],
         ["Hashiwokakero 4", "https://puzz.link/p?hashi/41/19/v3k6k3zzzk2i3g2o3i4zzw3i3g1m3k1i3g2zzs3g3i3k4s2g3g4zzzm3k2m3g2zzk3i5i1g3k2s3i2g3g4zzg4g3g1s4i3u3g5zzi2i2g2k1s3k1zzy1k4k1s1zzi2g1i2g4k4i4k4i6k4k4"],
+        // Hebi-Ichigo
+        ["Hebi-Ichigo 1", "https://puzz.link/p?hebi/10/10/k0.04a32c14l350.a40a23a11b44p40b0.a0.a40a0.25l0.c23a214.k"],
+        ["Hebi-Ichigo 2", "https://puzz.link/p?snakes/5/5/g13c31g35c12a"],
         // Heyawake
         ["Heyawake 1", "https://puzz.link/p?heyawake/10/10/274ssohvv000000000focossvvvvvv00000012h34001101h10g-11"],
         ["Heyawake 2", "https://puzz.link/p?heyawacky/10/8/4k94j266sdc488g0206rv300cro0074g321g26"],
@@ -266,9 +269,6 @@ describe("puzz.link parser", () => {
         // Scrin
         ["Scrin 1", "https://puzz.link/p?scrin/10/10/g.p7u5p.j.zi3m3m3u"],
         ["Scrin 2", "https://puzz.link/p?scrin/9/9/j3l2i4h1m5zh6zi3k2g"],
-        // Hebi-Ichigo
-        ["Hebi-Ichigo 1", "https://puzz.link/p?hebi/10/10/k0.04a32c14l350.a40a23a11b44p40b0.a0.a40a0.25l0.c23a214.k"],
-        ["Hebi-Ichigo 2", "https://puzz.link/p?hebi/5/5/g13c31g35c12a"],
         // Shakashaka
         ["Shakashaka 1", "https://puzz.link/p?shakashaka/10/10/g4.g5bcgdhei.l....w01436555000azp"],
         ["Shakashaka 2", "https://puzz.link/p?shakashaka/10/10/rch.m.k.lcgbv.ldgcqcjchb"],

@@ -3098,11 +3098,14 @@ function decode_puzzlink(url) {
             break;
         case "castle":
         case "hebi":
+        case "snakes": // hebi alias
         case "yajikazu":
         case "yajilin":
         case "yajirin": // yajilin alias
             if (type === "yajirin") {
                 type = "yajilin";
+            } else if (type === "snakes") {
+                type = "hebi";
             }
             // Yajikazu and some Yajilin puzzles don't shade cells
             var skip_shading = type !== "castle" && type !== "hebi";
