@@ -346,6 +346,9 @@ describe("puzz.link parser", () => {
         ["Tapa-Like Loop 3", "https://puzz.link/p?tapaloop/10/10/2i3i2zh2i3i2z2i3i2zh2i3i2"],
         ["Tapa-Like Loop 4", "https://puzz.link/p?tapaloop/12/12/zm+2pj+2pvadnarl22p22laenalv+2ojabzm"],
         ["Tapa-Like Loop 5", "https://puzz.link/p?tapaloop/15/15/habha9gaagaixajziaanb0n2oa9iaii+2pva9haji-9fiakhajzarib0xb0j-feiasziain+2omaiiajl3"],
+        // Tasquare
+        ["Tasquare 1", "https://puzz.link/p?tasquare/10/10/.i.h.h.i.h.h1i2i4h2i5i1z1i6iah2ibi9h.h.i.h.h.i./"],
+        ["Tasquare 2", "https://puzz.link/p?tasquare/10/10/.n.i+fffm-ffj+100m-10i2g.k2l2k2k2k2k2k.l.j2i./"],
         // Tents
         ["Tents 1", "https://puzz.link/p?tents/20/20/py0o001123456789abcdefghi0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z00jkl0"],
         ["Tents 2", "https://puzz.link/p?tents/9/9/2i2i1i221i31a0c42124b1a112"],

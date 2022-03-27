@@ -114,6 +114,7 @@ const penpa_tags = {
             "sukoro",
             "sukororoom",
             "symmetry area",
+            "tasquare",
             "tentaisho (spiral galaxies)",
             "tents",
             "toichika2",

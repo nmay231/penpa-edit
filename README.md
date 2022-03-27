@@ -521,6 +521,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Symmetry Area
 	* Tapa
 	* Tapa-Like Loop
+	* Tasquare
 	* Tentaisho (Spiral Galaxies)
 	* Tents
 	* Toichika 2
