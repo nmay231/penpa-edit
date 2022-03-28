@@ -528,6 +528,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Tasquare
 	* Tentaisho (Spiral Galaxies)
 	* Tents
+	* Territory (Nawabari)
 	* Toichika 2
 	* Uso-one
 	* Uso-tatami

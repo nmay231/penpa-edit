@@ -119,6 +119,7 @@ const penpa_tags = {
             "symmetry area",
             "tasquare",
             "tents",
+            "territory (nawabari)",
             "toichika2",
             "usoone",
             "usotatami",

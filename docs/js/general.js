@@ -4065,6 +4065,21 @@ function decode_puzzlink(url) {
             }
             pu.user_tags = [map_genre_tag[type]]; // Set tags
             break;
+        case "nawabari":
+            pu = new Puzzle_square(cols, rows, size);
+            pu.mode_grid("nb_grid2"); // Dashed grid lines
+            setupProblem(pu, "combi");
+
+            info_number = puzzlink_pu.decodeNumber10();
+            puzzlink_pu.drawNumbers(pu, info_number, 1, "1", false);
+
+            pu.mode_qa("pu_a");
+            pu.mode_set("combi");
+            pu.subcombimode("edgesub");
+            UserSettings.tab_settings = ["Surface", "Composite"];
+
+            pu.user_tags = ["territory (nawabari)"]; // Set tags
+            break;
         default:
             Swal.fire({
                 title: 'Swaroop says:',
