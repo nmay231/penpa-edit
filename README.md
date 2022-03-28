@@ -484,6 +484,7 @@ Depending on the browser you can update the page without using the cache with "C
 	* Maxi Loop
 	* Meandering Numbers
 	* Midloop
+	* Minesweeper
 	* Mochikoro
 	* Mochinyoro
 	* Moon or Sun

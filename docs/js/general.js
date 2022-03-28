@@ -4018,6 +4018,20 @@ function decode_puzzlink(url) {
             // Set tags
             pu.user_tags = ['tasquare'];
             break;
+        case "mines":
+            pu = new Puzzle_square(cols, rows, size);
+            setupProblem(pu, "combi");
+
+            info_number = puzzlink_pu.decodeNumber16();
+            puzzlink_pu.drawNumbers(pu, info_number, 1, "1", true);
+
+            pu.mode_qa("pu_a");
+            pu.mode_set("combi");
+            pu.subcombimode("mines");
+            UserSettings.tab_settings = ["Surface", "Composite"];
+
+            pu.user_tags = ['minesweeper']; // Set tags
+            break;
         default:
             Swal.fire({
                 title: 'Swaroop says:',
