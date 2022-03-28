@@ -224,6 +224,25 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Ichimaga</summary>
+
+* https://puzz.link/p?ichimaga/14/10/cdlcicdehcg2ddkbhddgdhbjbhcbcj8bg6bbjdhbgcgbbi6cgcbc
+* https://puzz.link/p?ichimaga/7/7/o6dgdgbhch.ibg7.o
+
+</details>
+<details>
+<summary>Ichimagam (Magnetic Ichimaga)</summary>
+
+* https://puzz.link/p?ichimagam/7/7/o6dgdgbhch.ibg7.o
+
+</details>
+<details>
+<summary>Ichimagamx (Crossing Ichimaga)</summary>
+
+* https://puzz.link/p?ichimagax/7/7/o6dgdgbhch.ibg7.o
+
+</details>
+<details>
 <summary>Juosan</summary>
 
 * https://puzz.link/p?juosan/8/8/c3000000000003g00000000042g

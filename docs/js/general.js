@@ -4032,6 +4032,39 @@ function decode_puzzlink(url) {
 
             pu.user_tags = ['minesweeper']; // Set tags
             break;
+        case "ichimaga":
+        case "ichimagam":
+        case "ichimagax":
+            pu = new Puzzle_square(cols - 1, rows - 1, size);
+            pu.mode_grid("nb_grid2"); // Dashed grid lines
+            pu.mode_grid("nb_out2"); // No grid border
+            setupProblem(pu, "combi");
+
+            info_number = puzzlink_pu.decodeNumber4();
+
+            for (i in info_number) {
+                // Determine which row and column
+                row_ind = parseInt(i / cols);
+                col_ind = i % cols;
+
+                cell = pu.nx0 * pu.ny0 + (pu.nx0 * (1 + row_ind) + 1 + col_ind);
+                value = info_number[i] === "?" ? " " : info_number[i];
+                pu["pu_q"].number[cell] = [value, 6, "1"];
+            }
+
+            pu.mode_qa("pu_a");
+            pu.mode_set("combi");
+            pu.subcombimode("edgex");
+            UserSettings.tab_settings = ["Surface", "Composite"];
+
+            // Convert the abreviated type name to the long form
+            map_genre_tag = {
+                ichimaga: "ichimaga",
+                ichimagam: "ichimagam (magnetic ichimaga)",
+                ichimagax: "ichimagamx (crossing ichimaga)",
+            }
+            pu.user_tags = [map_genre_tag[type]]; // Set tags
+            break;
         default:
             Swal.fire({
                 title: 'Swaroop says:',

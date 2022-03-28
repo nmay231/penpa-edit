@@ -124,6 +124,13 @@ describe("puzz.link parser", () => {
         ["Hitori 2", "https://puzz.link/p?hitori/8/8/.%.632..1.6..1.12.23..%3.%7..7..5.6.35%..7.7..7.2.%6.2.%.1..1.1./"],
         ["Hitori 3", "https://puzz.link/p?hitori/8/8/8416325715684121262378436475273858613542475783762346528431821615"],
         ["Hitori 4", "https://puzz.link/p?hitori/9/6/number15burgerkingfootlettucethelastthingyouwantinyourburger"],
+        // Ichimaga
+        ["Ichimaga 1", "https://puzz.link/p?ichimaga/14/10/cdlcicdehcg2ddkbhddgdhbjbhcbcj8bg6bbjdhbgcgbbi6cgcbc"],
+        ["Ichimaga 2", "https://puzz.link/p?ichimaga/7/7/o6dgdgbhch.ibg7.o"],
+        // Ichimagam (Magnetic Ichimaga)
+        ["Ichimagam (Magnetic Ichimaga) 1", "https://puzz.link/p?ichimagam/7/7/o6dgdgbhch.ibg7.o"],
+        // Ichimagamx (Crossing Ichimaga)
+        ["Ichimagamx (Crossing Ichimaga) 1", "https://puzz.link/p?ichimagax/7/7/o6dgdgbhch.ibg7.o"],
         // Juosan
         ["Juosan 1", "https://puzz.link/p?juosan/8/8/c3000000000003g00000000042g"],
         ["Juosan 2", "https://puzz.link/p?juosan/11/12/04fu7ukjl4btl6idrvifnvrtrvs0vd9vrshu97v9kiv4p4410ag1421521322524622g5g184551g134231g"],
