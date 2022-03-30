@@ -4080,6 +4080,36 @@ function decode_puzzlink(url) {
 
             pu.user_tags = ["territory (nawabari)"]; // Set tags
             break;
+        case "dbchoco":
+            pu = new Puzzle_square(cols, rows, size);
+            pu.mode_grid("nb_grid2"); // Dashed grid lines
+            pu.mode_grid("nb_lat1"); // Grid Points
+            setupProblem(pu, "combi");
+
+            // Add shading
+            info_number = puzzlink_pu.decodeNumber2Binary(cols * rows);
+            for (let i in info_number) {
+                if (!info_number[i]) {
+                    continue;
+                }
+                row_ind = parseInt(i / cols);
+                col_ind = i % cols;
+
+                cell = pu.nx0 * (2 + row_ind) + 2 + col_ind;
+                pu["pu_q"].surface[cell] = 3;
+            }
+
+            // Add Numbers
+            info_number = puzzlink_pu.decodeNumber16();
+            puzzlink_pu.drawNumbers(pu, info_number, 1, "1", false);
+
+            pu.mode_qa("pu_a");
+            pu.mode_set("combi");
+            pu.subcombimode("edgesub");
+            UserSettings.tab_settings = ["Surface", "Composite"];
+
+            pu.user_tags = ["double choco"]; // Set tags
+            break;
         default:
             Swal.fire({
                 title: 'Swaroop says:',

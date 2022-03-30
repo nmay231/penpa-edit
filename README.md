@@ -446,7 +446,7 @@ Depending on the browser you can update the page without using the cache with "C
 * This function has multiple purposes. Mainly, it is a solution for "URL too long Error".
 * If the puzzle is too big and contains a lot of elements, it generates a big URL and the size is limited by the internet. In order to address this issue, one can use this Load button option to copy the big URL and click "Load URL" button.
 * Basically, one can share the "Long URL" and ask the user to copy paste in the "Load" button and load the puzzle locally into Penpa.
-* Secondly, it can also be used to import https://puzz.link/db/ puzzles. Those with a :heavy_check_mark: the right of the name are supported while those marked with :x: are not (yet).
+* Secondly, it can also be used to import https://puzz.link/db/ puzzles. Those with a :heavy_check_mark: the right of the name are supported while those marked with a :x: are not (yet).
 
 Aho-ni-Narikire :heavy_check_mark: ;
 Akari (Light up) :heavy_check_mark: ;
@@ -477,7 +477,7 @@ Detour :heavy_check_mark: ;
 Doppelblock :x: ;
 Dosun-Fuwari :x: ;
 Double Back :heavy_check_mark: ;
-Double Choco :x: ;
+Double Choco :heavy_check_mark: ;
 Easy as ABC :heavy_check_mark: ;
 Factors (Rooms of Factors) :heavy_check_mark: ;
 Fillmat :heavy_check_mark: ;
@@ -502,8 +502,8 @@ Icebarn :x: ;
 Icelom :x: ;
 Icelom 2 :x: ;
 Ichimaga :heavy_check_mark: ;
-Ichimaga, Magnetic :heavy_check_mark: ;
 Ichimaga, Crossing :heavy_check_mark: ;
+Ichimaga, Magnetic :heavy_check_mark: ;
 International Borders :x: ;
 Juosan :heavy_check_mark: ;
 KaitoRamma :x: ;

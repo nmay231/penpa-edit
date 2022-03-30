@@ -67,6 +67,7 @@ const penpa_tags = {
             "country road",
             "detour",
             "double back",
+            "double choco",
             "easy as abc",
             "factors",
             "fillmat",

@@ -73,6 +73,11 @@ describe("puzz.link parser", () => {
         ["Double Back 1", "https://puzz.link/p?doubleback/10/10/o1g300000000162c4o007vvvvvvvvvvv7f70"],
         ["Double Back 2", "https://puzz.link/p?doubleback/8/8/b2stfautich00cq80j2gk0u0"],
         ["Double Back 3", "https://puzz.link/p?doubleback/10/10/aqkqpdas5sbtnatdl27ms31of1k6803vfsne000000001g1g00000000"],
+        // Double Choco
+        ["Double Choco 1", "https://puzz.link/p?dbchoco/10/10/0vehehf137soguhehev0q1l2j3h1j2l2j4h4l2h1j1l3j2h2j4l4q"],
+        ["Double Choco 2", "https://puzz.link/p?dbchoco/10/10/jo6cc6pjjpjppjc66c3ph3g8zzg2g4h1g5zzg3g2h"],
+        ["Double Choco 3", "https://puzz.link/p?dbchoco/16/16/oilc98m4no6803vv1s0u3pvbjrnni0r33k31pj7sj7gb7qd63s60g1j8g6j123j3k12k1zzk17m3w2j1g2k3j54p13i4zj6n1s13i9135j6z4u3v"],
+        ["Double Choco 4", "https://puzz.link/p?dbchoco/6/6/blalf03gzg5n3k"],
         // Easy as ABC
         ["Easy as ABC 1", "https://puzz.link/p?easyasabc/5/5/3/123j654h987.0-ff-33"],
         ["Easy as ABC 2", "https://puzz.link/p?easyasabc/15/13/3/.0123456789abcdef-10-11-12-13-14-15-16-17-18-19-1a-1b-1c-1d-1e-1f-20-21-22-23-24-25-26-27-28-29-2a-2b-2c-2d-2e-2f-30-31-32-33-34i."],

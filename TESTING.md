@@ -123,6 +123,15 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Double Choco</summary>
+
+* https://puzz.link/p?dbchoco/10/10/0vehehf137soguhehev0q1l2j3h1j2l2j4h4l2h1j1l3j2h2j4l4q
+* https://puzz.link/p?dbchoco/10/10/jo6cc6pjjpjppjc66c3ph3g8zzg2g4h1g5zzg3g2h
+* https://puzz.link/p?dbchoco/16/16/oilc98m4no6803vv1s0u3pvbjrnni0r33k31pj7sj7gb7qd63s60g1j8g6j123j3k12k1zzk17m3w2j1g2k3j54p13i4zj6n1s13i9135j6z4u3v
+* https://puzz.link/p?dbchoco/6/6/blalf03gzg5n3k
+
+</details>
+<details>
 <summary>Easy as ABC</summary>
 
 * https://puzz.link/p?easyasabc/5/5/3/123j654h987.0-ff-33

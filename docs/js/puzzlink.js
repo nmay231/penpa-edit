@@ -398,7 +398,7 @@ class Puzzlink {
         return number_list;
     }
 
-    decodeNumber2Binary() {
+    decodeNumber2Binary(max_iter = Infinity) {
         var number_list = [];
 
         for (var char of this.gridurl) {
@@ -410,6 +410,11 @@ class Puzzlink {
                 parseInt(int / 2) % 2,
                 parseInt(int / 1) % 2,
             );
+
+            max_iter -= 5;
+            if (max_iter <= 0) {
+                break;
+            }
         }
         // Remove what was parsed
         this.gridurl = this.gridurl.substr(number_list.length / 5);
