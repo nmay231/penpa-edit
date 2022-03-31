@@ -583,7 +583,7 @@ Tapa :heavy_check_mark: ;
 Tapa-Like Loop :heavy_check_mark: ;
 Tasquare :heavy_check_mark: ;
 Tatamibari :x: ;
-Tatebo-Yokobo :x: ;
+Tatebo-Yokobo :heavy_check_mark: ;
 Tawamurenga :x: ;
 Tentaisho (Spiral Galaxies) :heavy_check_mark: ;
 Tents :heavy_check_mark: ;

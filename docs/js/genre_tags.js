@@ -119,6 +119,7 @@ const penpa_tags = {
             "sukororoom",
             "symmetry area",
             "tasquare",
+            "tatebo-yokobo",
             "tents",
             "territory (nawabari)",
             "toichika2",

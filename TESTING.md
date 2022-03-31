@@ -695,6 +695,14 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Tatebo-Yokobo</summary>
+
+* https://puzz.link/p?tateyoko/10/10/p2i3xn2np1i21pi32n1nrn1i2pn2n1nri2pi3xn3i22n1ri2qi42i2x2i2p2np2i4xi22nqn2n2n3nqi4xn2npn1n2p
+* http://pzv.jp/p.html?tateyoko/10/10/2i22ppi23i2xi43nq2i2r2i3xi22n1no1i4pi5p1nxpi2q3i32x2i4rn1i4x2i3pn2nq2i33nqn3i3ppn1i2
+* https://puzz.link/p?tateyoko/5/5/-10i22ppi23i2xi43nq2i2r2-ff
+
+</details>
+<details>
 <summary>Tentaisho (Spiral Galaxies)</summary>
 
 * https://puzz.link/p?tentaisho/10/10/znezzjezzmezweu4ezlezzrezjeze

@@ -697,6 +697,45 @@ class Puzzlink {
         obj.shape_list = shape_list;
         return obj;
     }
+
+    decodeTateyoko() {
+        let info_number = {};
+        let cell_index = 0, index;
+        for (index = 0; index < this.gridurl.length; index++) {
+            let char = this.gridurl[index];
+            // value = [number, is background shaded?]
+            let value = null;
+
+            if (char === "x") {
+                value = ["", true];
+            } else if (this.include(char, "o", "s")) {
+                value = [parseInt(char, 29) - 24, true];
+            } else if (this.include(char, "0", "9") || this.include(char, "a", "f")) {
+                value = [parseInt(char, 16), false];
+            } else if (char === "-") {
+                value = [parseInt(this.gridurl.substr(index + 1, 2), 16), false];
+                index += 2;
+            } else if (char === "i") {
+                cell_index += parseInt(this.gridurl[index + 1], 16);
+                index++;
+                continue;
+            } else {
+                cell_index++;
+                continue;
+            }
+
+            info_number[cell_index] = value;
+            cell_index++;
+
+            if (cell_index >= this.cols * this.rows) {
+                break;
+            }
+        }
+
+        this.gridurl = this.gridurl.substr(this.cols * this.rows);
+
+        return info_number;
+    }
 }
 
 class DisjointSets {
