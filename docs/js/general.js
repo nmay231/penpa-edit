@@ -4163,9 +4163,9 @@ function decode_puzzlink(url) {
                     pu.user_tags = ["choco banana"];
                     break;
                 case "tontti":
-                    pu.mode_set("combi");
-                    pu.subcombimode("rassisillai");
-                    UserSettings.tab_settings = ["Surface", "Composite"];
+                    pu.mode_set("line");
+                    pu.submode_check("sub_line5"); // Middle submode
+                    UserSettings.tab_settings = ["Surface", "Line Middle"];
                     pu.user_tags = ["tonttiraja"];
                     break;
             }
