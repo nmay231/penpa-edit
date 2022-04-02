@@ -603,6 +603,21 @@ Yajitatami :x: ;
 Yin-Yang :heavy_check_mark: ;
 Yosenabe :x: ;
 
+* It can also import puzzles from https://pzprxs.vercel.app/, a fork of puzz.link with different puzzle variants.
+
+Building Walk :x: ;
+Canal View :heavy_check_mark: ;
+Chained Block :x: ;
+Choco Banana :heavy_check_mark: ;
+Crossstitch :x: ;
+Dotchi Loop :x: ;
+Lohkous :x: ;
+One Room One Door :x: ;
+Ovotovata :x: ;
+Rassi Silai :x: ;
+Tonttiraja :heavy_check_mark: ;
+Voxas :x: ;
+
 
 ### Settings
 * This function is to provide Penpa-site general settings like theme, custom color etc.

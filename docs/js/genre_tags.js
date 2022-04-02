@@ -58,6 +58,7 @@ const penpa_tags = {
             "roundtrip"
         ],
         "puzzlink": [
+            // ============ https://puzz.link/p or http://pzv.jp/p.html ============
             "aho",
             "akari",
             "aqre",
@@ -128,6 +129,10 @@ const penpa_tags = {
             "view",
             "yajikazu (yajisan-kazusan)",
             "yin-yang",
+            // ============ https://pzprxs.vercel.app/p ============
+            "canal view",
+            "choco banana",
+            "tonttiraja",
         ],
         "Others": [
             "wordpuzzle",

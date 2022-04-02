@@ -13,6 +13,7 @@ describe("puzz.link parser", () => {
     })
 
     const urls = [
+        // ============ https://puzz.link/p or http://pzv.jp/p.html ============
         // Aho
         ["Aho 1", "https://puzz.link/p?aho/10/10/.k9h4n4t9h4i6i4p8ici2h3t6n6h3k5"],
         ["Aho 2", "https://puzz.link/p?aho/11/7/-14lch-15zw11v-16p"],
@@ -415,6 +416,16 @@ describe("puzz.link parser", () => {
         ["Yin-Yang 2", "https://puzz.link/p?yinyang/v:/14/8/59000k00074i00027a8ala6j620g793b606n39"],
         ["Yin-Yang 3", "https://puzz.link/p?yinyang/12/5/02903a2o490i392o0290"],
         ["Yin-Yang 4", "https://puzz.link/p?yinyang/14/10/000003fji00i3i669j099i31109960kl0320g010a000000"],
+        // ============ https://pzprxs.vercel.app/p ============
+        // Canal View
+        ["Canal View 1", "https://pzprxs.vercel.app/p?canal/6/6/.j.p6h4p6j6"],
+        ["Canal View 2", "https://pzprxs.vercel.app/p?canal/v:/10/10/1k4u1j7i3r6y1w-11m3n2"],
+        // Choco Banana
+        ["Choco Banana 1", "https://pzprxs.vercel.app/p?cbanana/v:/6/6/.j.p6h4p6j6"],
+        ["Choco Banana 2", "https://pzprxs.vercel.app/p?cbanana/10/10/1k4u1j7i3r6y1w-11m3n2"],
+        // Tonttiraja
+        ["Tonttiraja 1", "https://pzprxs.vercel.app/p?tontti/v:/6/6/.j.p6h4p6j6"],
+        ["Tonttiraja 2", "https://pzprxs.vercel.app/p?tontti/10/10/1k4u1j7i3r6y1w-11m3n2"],
     ];
     const testCases = [];
 

@@ -1,12 +1,14 @@
 # About
 Use following links to do testing of Penpa+. This by no means an exhaustive testing but only sample links to ensure new features have not broken old code.
 
+<!-- https://swaroopg92.github.io/penpa-edit -->
 <details>
 <summary>Penpa+</summary>
 
 * https://git.io/JReKb
 
 </details>
+<!-- ============ https://puzz.link/p or http://pzv.jp/p.html ============ -->
 <details>
 <summary>Aho</summary>
 
@@ -786,5 +788,27 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 * https://puzz.link/p?yinyang/v:/14/8/59000k00074i00027a8ala6j620g793b606n39
 * https://puzz.link/p?yinyang/12/5/02903a2o490i392o0290
 * https://puzz.link/p?yinyang/14/10/000003fji00i3i669j099i31109960kl0320g010a000000
+
+</details>
+<!-- ============ https://pzprxs.vercel.app/p ============ -->
+<details>
+<summary>Canal View</summary>
+
+* https://pzprxs.vercel.app/p?canal/6/6/.j.p6h4p6j6
+* https://pzprxs.vercel.app/p?canal/v:/10/10/1k4u1j7i3r6y1w-11m3n2
+
+</details>
+<details>
+<summary>Choco Banana</summary>
+
+* https://pzprxs.vercel.app/p?cbanana/v:/6/6/.j.p6h4p6j6
+* https://pzprxs.vercel.app/p?cbanana/10/10/1k4u1j7i3r6y1w-11m3n2
+
+</details>
+<details>
+<summary>Tonttiraja</summary>
+
+* https://pzprxs.vercel.app/p?tontti/v:/6/6/.j.p6h4p6j6
+* https://pzprxs.vercel.app/p?tontti/10/10/1k4u1j7i3r6y1w-11m3n2
 
 </details>
