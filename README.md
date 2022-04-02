@@ -610,7 +610,7 @@ Canal View :heavy_check_mark: ;
 Chained Block :x: ;
 Choco Banana :heavy_check_mark: ;
 Crossstitch :x: ;
-Dotchi Loop :x: ;
+Dotchi Loop :heavy_check_mark: ;
 Lohkous :x: ;
 One Room One Door :x: ;
 Ovotovata :x: ;

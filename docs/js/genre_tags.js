@@ -132,6 +132,7 @@ const penpa_tags = {
             // ============ https://pzprxs.vercel.app/p ============
             "canal view",
             "choco banana",
+            "dotchi-loop",
             "tonttiraja",
         ],
         "Others": [

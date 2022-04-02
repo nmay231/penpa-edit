@@ -806,6 +806,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Dotchi-Loop</summary>
+
+* https://pzprxs.vercel.app/p?dotchi/7/7/2b2a2imi0i38h49mi873300390i0a262970
+* https://pzprxs.vercel.app/p?dotchi/10/10/54a94i93264d0qil0200vs03vs1stv0fu0vsk6lja01621i415ak6biai3b0c6bg6gi030
+
+</details>
+<details>
 <summary>Tonttiraja</summary>
 
 * https://pzprxs.vercel.app/p?tontti/v:/6/6/.j.p6h4p6j6
