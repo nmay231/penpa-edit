@@ -430,6 +430,9 @@ describe("puzz.link parser", () => {
         // Dotchi-Loop
         ["Dotchi-Loop 1", "https://pzprxs.vercel.app/p?dotchi/7/7/2b2a2imi0i38h49mi873300390i0a262970"],
         ["Dotchi-Loop 2", "https://pzprxs.vercel.app/p?dotchi/10/10/54a94i93264d0qil0200vs03vs1stv0fu0vsk6lja01621i415ak6biai3b0c6bg6gi030"],
+        // One Room One Door
+        ["One Room One Door 1", "https://pzprxs.vercel.app/p?oneroom/10/8/4k94j266sdc488g0206rv300cro00.4g321g26"],
+        ["One Room One Door 2", "https://pzprxs.vercel.app/p?oneroom/10/10/274ssohvv000000000focossvvvvvv00000012h34001101h10g-11"],
         // Tonttiraja
         ["Tonttiraja 1", "https://pzprxs.vercel.app/p?tontti/v:/6/6/.j.p6h4p6j6"],
         ["Tonttiraja 2", "https://pzprxs.vercel.app/p?tontti/10/10/1k4u1j7i3r6y1w-11m3n2"],

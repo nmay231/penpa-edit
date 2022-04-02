@@ -820,6 +820,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>One Room One Door</summary>
+
+* https://pzprxs.vercel.app/p?oneroom/10/8/4k94j266sdc488g0206rv300cro00.4g321g26
+* https://pzprxs.vercel.app/p?oneroom/10/10/274ssohvv000000000focossvvvvvv00000012h34001101h10g-11
+
+</details>
+<details>
 <summary>Tonttiraja</summary>
 
 * https://pzprxs.vercel.app/p?tontti/v:/6/6/.j.p6h4p6j6

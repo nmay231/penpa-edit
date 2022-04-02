@@ -612,7 +612,7 @@ Choco Banana :heavy_check_mark: ;
 Crossstitch :x: ;
 Dotchi Loop :heavy_check_mark: ;
 Lohkous :x: ;
-One Room One Door :x: ;
+One Room One Door :heavy_check_mark: ;
 Ovotovata :x: ;
 Rassi Silai :x: ;
 Tonttiraja :heavy_check_mark: ;
