@@ -607,7 +607,7 @@ Yosenabe :x: ;
 
 Building Walk :x: ;
 Canal View :heavy_check_mark: ;
-Chained Block :x: ;
+Chained Block :heavy_check_mark: ;
 Choco Banana :heavy_check_mark: ;
 Crossstitch :x: ;
 Dotchi Loop :heavy_check_mark: ;

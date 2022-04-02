@@ -421,6 +421,9 @@ describe("puzz.link parser", () => {
         // Canal View
         ["Canal View 1", "https://pzprxs.vercel.app/p?canal/6/6/.j.p6h4p6j6"],
         ["Canal View 2", "https://pzprxs.vercel.app/p?canal/v:/10/10/1k4u1j7i3r6y1w-11m3n2"],
+        // Chained Block
+        ["Chained Block 1", "https://pzprxs.vercel.app/p?chainedb/9/9/15i96l17i7g65i42k1g5368h2i7g2p3h5g48g2g9k3h7i6"],
+        ["Chained Block 2", "https://pzprxs.vercel.app/p?chainedb/12/12/h3l4k.l.m.j2n.k3o.h.j.m3r3m2j.i.i3j.i2i2t2k"],
         // Choco Banana
         ["Choco Banana 1", "https://pzprxs.vercel.app/p?cbanana/v:/6/6/.j.p6h4p6j6"],
         ["Choco Banana 2", "https://pzprxs.vercel.app/p?cbanana/10/10/1k4u1j7i3r6y1w-11m3n2"],

@@ -131,6 +131,7 @@ const penpa_tags = {
             "yin-yang",
             // ============ https://pzprxs.vercel.app/p ============
             "canal view",
+            "chained block",
             "choco banana",
             "dotchi-loop",
             "tonttiraja",

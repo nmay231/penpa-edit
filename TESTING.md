@@ -799,6 +799,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Chained Block</summary>
+
+* https://pzprxs.vercel.app/p?chainedb/9/9/15i96l17i7g65i42k1g5368h2i7g2p3h5g48g2g9k3h7i6
+* https://pzprxs.vercel.app/p?chainedb/12/12/h3l4k.l.m.j2n.k3o.h.j.m3r3m2j.i.i3j.i2i2t2k
+
+</details>
+<details>
 <summary>Choco Banana</summary>
 
 * https://pzprxs.vercel.app/p?cbanana/v:/6/6/.j.p6h4p6j6
