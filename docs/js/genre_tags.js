@@ -135,6 +135,7 @@ const penpa_tags = {
             "choco banana",
             "dotchi-loop",
             "one room one door",
+            "rassi silai",
             "tonttiraja",
         ],
         "Others": [

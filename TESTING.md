@@ -827,6 +827,13 @@ Use following links to do testing of Penpa+. This by no means an exhaustive test
 
 </details>
 <details>
+<summary>Rassi Silai</summary>
+
+* https://pzprxs.vercel.app/p?rassi/8/8/b2stfautich00cq80j2gk0u060p124gl0o2g4
+* https://pzprxs.vercel.app/p?rassi/10/10/aqkqpdas5sbtnatdl27ms31of1k6803vfsne000000001g1g00000000
+
+</details>
+<details>
 <summary>Tonttiraja</summary>
 
 * https://pzprxs.vercel.app/p?tontti/v:/6/6/.j.p6h4p6j6

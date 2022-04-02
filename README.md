@@ -614,7 +614,7 @@ Dotchi Loop :heavy_check_mark: ;
 Lohkous :x: ;
 One Room One Door :heavy_check_mark: ;
 Ovotovata :x: ;
-Rassi Silai :x: ;
+Rassi Silai :heavy_check_mark: ;
 Tonttiraja :heavy_check_mark: ;
 Voxas :x: ;
 

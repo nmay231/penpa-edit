@@ -4237,6 +4237,33 @@ function decode_puzzlink(url) {
             UserSettings.tab_settings = ["Surface"];
             pu.user_tags = ["one room one door"];
             break;
+        case "rassi":
+            pu = new Puzzle_square(cols, rows, size);
+            pu.mode_grid("nb_grid2"); // Dashed gridlines
+            setupProblem(pu, "combi");
+
+            info_edge = puzzlink_pu.decodeBorder();
+            puzzlink_pu.drawBorder(pu, info_edge, 2);
+
+            // Shade marked cells
+            info_number = puzzlink_pu.decodeNumber2Binary();
+            for (var i in info_number) {
+                if (!info_number[i]) {
+                    continue;
+                }
+                // Determine which row and column
+                row_ind = parseInt(i / cols);
+                col_ind = i % cols;
+                cell = pu.nx0 * (2 + row_ind) + 2 + col_ind;
+                pu["pu_q"].surface[cell] = 4;
+            }
+
+            pu.mode_qa("pu_a");
+            pu.mode_set("combi");
+            pu.subcombimode("rassisillai");
+            UserSettings.tab_settings = ["Surface", "Composite"];
+            pu.user_tags = ["rassi silai"]; // Genre Tags
+            break;
         default:
             Swal.fire({
                 title: 'Swaroop says:',
